@@ -1,0 +1,11 @@
+Feature: Searching on Google
+As a curious person
+I want to search google for information
+So that I can learn stuff
+
+Scenario: Searching for cucumber
+Given I am on the start page
+When I enter "cucumber" in the search box
+And I click the search button
+Then I should see "https://cucumber.io"
+
